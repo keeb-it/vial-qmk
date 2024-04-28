@@ -30,3 +30,7 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [_BASE] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
 };
 #endif
+
+#ifdef OLED_ENABLE
+#include "bongo_128x64.c"
+#endif
