@@ -1,0 +1,8 @@
+ENCODER_MAP_ENABLE = yes
+OLED_ENABLE = yes
+WPM_ENABLE = yes
+
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+
+VIAL_INSECURE = yes
